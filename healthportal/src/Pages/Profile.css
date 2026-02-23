@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+.navbar-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileIntro{
+    margin-top: 30px;
+    background-color: #4DA6FF;
+    width: 60%;
+    height: 700px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.profileIntroContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+}
+.profileHeader{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileLeft{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avatarContainer{
+    width: 100%;
+}
+.avatarIcon{
+    width: 100%;
+}
+.avatarIcon img{
+    width: 60%;
+    border-radius: 100%;
+}
+.avatarContainer p{
+    text-decoration: none;
+    cursor: pointer;
+}
+.avatarContainer p:hover{
+    text-decoration: underline;
+}
+.avatarSelection {
+    width: 80%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.avatarSelection h3 {
+    margin-bottom: 10px;
+}
+.avatarOptions {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.avatarOptions img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: border-color 0.2s;
+}
+.avatarOptions img:hover {
+    border-color: #ffffff;
+}
+.avatarOptions img.selected {
+    border-color: #00ff00;
+}
+.avatarActions button {
+    margin-right: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #1A73E8;
+}
+.profileRight{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileForm{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileForm form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D4EAFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #999999;
+}
+
+.profileForm form input.disabled {
+    cursor: not-allowed;
+    background-color: #D4EAFF;
+}
+.profileForm form button h2{ 
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Baloo 2", sans-serif;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formText{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 10px;
+}
+.formText p{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submitButtonProfile{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submitButtonProfile button{
+        width: 100%;
+        background-color: #1A73E8;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+}
+.profileDetails{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.profileDetails h2{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.profileCalender{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.profileDepartment{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.calenderBox{
+    background-color: #D4EAFF;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calenderBox h1{
+        color: #7e7e7e;
+        font-size: 24px;
+}
+.departmentBox{
+    background-color: #D4EAFF;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.departmentBox h1{
+        font-size: 24px;
+        width: 100%;
+                text-decoration: none;
+}
+.departmentButton{
+        background-color: #D4EAFF;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+}
+.departmentBox a{
+    text-decoration: none;
+}
+.departmentBox a:hover{
+    text-decoration: none;
+}
+.departmentButton h3{
+    color: #7e7e7e;
+    font-size: 24px;
+    font-family: "Baloo 2", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+}
+.departmentBox a:hover h3{
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .profileIntro {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .profileIntro {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .profileIntroContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profileLeft, .profileRight {
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .profileDetails {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profileCalender, .profileDepartment {
+        width: 100%;
+        align-items: center;
+    }
+
+    .calenderBox, .departmentBox {
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .profileIntro {
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .profileHeader h1 {
+        font-size: 1.8rem;
+    }
+
+    .avatarIcon img {
+        width: 50%;
+    }
+
+    .avatarOptions {
+        flex-wrap: wrap;
+    }
+
+    .profileForm form input {
+        font-size: 14px;
+    }
+    .avatarOptions img {
+    width: 50px;
+    height: 50px;
+    }
+}

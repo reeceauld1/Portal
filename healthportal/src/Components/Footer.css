@@ -1,0 +1,91 @@
+footer{
+    width: 100%;
+    height: 325px;
+    background-color: #4DA6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+.footerContainer{
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerHeader{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerText{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.footerLeft{
+    width:  30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-right: 2.5%;
+}
+.footerLeft ul{
+    flex-direction: column;
+    list-style-type: none;
+    line-height: 26px;
+
+}
+.footerLeft ul li :link{
+    text-decoration: none;
+}
+.footerLeft ul li :link:hover{
+    text-decoration: underline;
+}
+.footerRight{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 2.5%;
+}
+.footerRight ul{
+    flex-direction: column;
+    list-style-type: none;
+
+}
+.footerRight ul p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.footerRight ul p:hover{
+    text-decoration: underline;
+}
+.footerBottom{
+    height: 25px;
+        font-size: 14px;
+}
+@media (max-width: 450px) {
+    .footerText{
+        font-size: 14px;
+    }
+    .footerBottom{
+        font-size: 10px;
+    }
+}

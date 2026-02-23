@@ -1,0 +1,19 @@
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    line-height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.profileInfo h2{
+    font-size: 26px;
+}
+.profileBackButton{
+    position: absolute;
+    padding: 10px;
+
+}
+.profileHeader{
+    width: 100%;
+
+}
